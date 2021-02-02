@@ -2,11 +2,11 @@ odoo.define('web.FormView', function (require) {
 "use strict";
 
 var BasicView = require('web.BasicView');
-var config = require('web.config');
 var Context = require('web.Context');
 var core = require('web.core');
 var FormController = require('web.FormController');
 var FormRenderer = require('web.FormRenderer');
+const { generateID } = require('web.utils');
 
 var _lt = core._lt;
 
@@ -18,34 +18,37 @@ var FormView = BasicView.extend({
     display_name: _lt('Form'),
     icon: 'fa-edit',
     multi_record: false,
-    searchable: false,
-    jsLibs: [],
+    withSearchBar: false,
+    searchMenuTypes: [],
     viewType: 'form',
     /**
      * @override
      */
     init: function (viewInfo, params) {
+        var hasActionMenus = params.hasActionMenus;
         this._super.apply(this, arguments);
 
-        var mode = params.mode || params.context.form_view_initial_mode ||
-                   (params.currentId ? 'readonly' : 'edit');
+        var mode = params.mode || (params.currentId ? 'readonly' : 'edit');
         this.loadParams.type = 'record';
 
-        this.controllerParams.disableAutofocus = params.disable_autofocus;
-        this.controllerParams.hasSidebar = params.hasSidebar;
+        // this is kind of strange, but the param object is modified by
+        // AbstractView, so we only need to use its hasActionMenus value if it was
+        // not already present in the beginning of this method
+        if (hasActionMenus === undefined) {
+            hasActionMenus = params.hasActionMenus;
+        }
+        this.controllerParams.hasActionMenus = hasActionMenus;
+        this.controllerParams.disableAutofocus = params.disable_autofocus || this.arch.attrs.disable_autofocus;
         this.controllerParams.toolbarActions = viewInfo.toolbar;
         this.controllerParams.footerToButtons = params.footerToButtons;
-        if ('action' in params && 'flags' in params.action) {
-            this.controllerParams.footerToButtons = params.action.flags.footerToButtons;
-        }
+
         var defaultButtons = 'default_buttons' in params ? params.default_buttons : true;
         this.controllerParams.defaultButtons = defaultButtons;
         this.controllerParams.mode = mode;
 
         this.rendererParams.mode = mode;
-        if (config.device.isMobile) {
-            this.jsLibs.push('/web/static/lib/jquery.touchSwipe/jquery.touchSwipe.js');
-        }
+        this.rendererParams.isFromFormViewDialog = params.isFromFormViewDialog;
+        this.rendererParams.fieldIdsToNames = this.fieldsView.fieldIdsToNames;
     },
 
     //--------------------------------------------------------------------------
@@ -64,11 +67,31 @@ var FormView = BasicView.extend({
     //--------------------------------------------------------------------------
 
     /**
+     * @override
+     */
+    _extractParamsFromAction: function (action) {
+        var params = this._super.apply(this, arguments);
+        var inDialog = action.target === 'new';
+        var inline = action.target === 'inline';
+        var fullscreen = action.target === 'fullscreen';
+        params.withControlPanel = !(inDialog || inline);
+        params.footerToButtons = inDialog;
+        params.hasSearchView = inDialog ? false : params.hasSearchView;
+        params.hasActionMenus = !inDialog && !inline;
+        params.searchMenuTypes = inDialog ? [] : params.searchMenuTypes;
+        if (inDialog || inline || fullscreen) {
+            params.mode = 'edit';
+        } else if (action.context && action.context.form_view_initial_mode) {
+            params.mode = action.context.form_view_initial_mode;
+        }
+        return params;
+    },
+    /**
      * Loads the subviews for x2many fields when they are not inline
      *
      * @private
      * @param {Widget} parent the parent of the model, if it has to be created
-     * @returns {Deferred}
+     * @returns {Promise}
      */
     _loadSubviews: function (parent) {
         var self = this;
@@ -124,7 +147,40 @@ var FormView = BasicView.extend({
                 }
             });
         }
-        return $.when.apply($, defs);
+        return Promise.all(defs);
+    },
+    /**
+     * @override
+     */
+    _processArch(arch, fv) {
+        fv.fieldIdsToNames = {}; // maps field ids (identifying <field> nodes) to field names
+        return this._super(...arguments);
+    },
+    /**
+     * Override to populate the 'fieldIdsToNames' dict mapping <field> node ids
+     * to field names. Those ids are computed as follows:
+     *   - if set on the node, we use the 'id' attribute
+     *   - otherwise
+     *       - if this is the first occurrence of the field in the arch, we use
+     *         its name as id ('name' attribute)
+     *       - otherwise we generate an id by concatenating the field name with
+     *         a unique id
+     *       - in both cases, we set the id we generated in the attrs, as it
+     *         will be used by the renderer.
+     *
+     * @override
+     */
+    _processNode(node, fv) {
+        if (node.tag === 'field') {
+            const name = node.attrs.name;
+            let uid = node.attrs.id;
+            if (!uid) {
+                uid = name in fv.fieldIdsToNames ? `${name}__${generateID()}__` : name;
+                node.attrs.id = uid;
+            }
+            fv.fieldIdsToNames[uid] = name;
+        }
+        return this._super(...arguments);
     },
     /**
      * We set here the limit for the number of records fetched (in one page).

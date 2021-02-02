@@ -17,9 +17,6 @@
                 color: darken($o-main-text-color, 10%);
             }
         }
-        .dropdown-divider:first-child {
-            display: none;
-        }
     }
 }
 
@@ -41,5 +38,9 @@
             left: 4px;
             content: "\f00c";
         }
+    }
+    .o_trash_button {
+        padding-left: 8px;
+        @include o-position-absolute($right: $dropdown-item-padding-x * 0.5);
     }
 }

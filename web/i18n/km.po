@@ -3,19 +3,17 @@
 # * web
 # 
 # Translators:
+# Chan Nath <channath@gmail.com>, 2018
+# Sengtha Chay <sengtha@gmail.com>, 2018
 # Samkhann Seang <seangsamkhann@gmail.com>, 2018
 # AN Souphorn <ansouphorn@gmail.com>, 2018
-# Sengtha Chay <sengtha@gmail.com>, 2018
-# Chan Nath <channath@gmail.com>, 2018
-# Lux Sok <sok.lux@gmail.com>, 2019
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-13 07:03+0000\n"
-"PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: Lux Sok <sok.lux@gmail.com>, 2019\n"
+"POT-Creation-Date: 2018-10-08 06:49+0000\n"
+"PO-Revision-Date: 2018-10-08 06:49+0000\n"
+"Last-Translator: AN Souphorn <ansouphorn@gmail.com>, 2018\n"
 "Language-Team: Khmer (https://www.transifex.com/odoo/teams/41243/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,14 +26,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/calendar/calendar_model.js:520
 #, python-format
 msgid " [Me]"
-msgstr " [ខ្ញុំ]"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/search_filters.js:231
 #, python-format
 msgid " and "
-msgstr "ហើយ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -43,7 +41,7 @@ msgstr "ហើយ"
 #: code:addons/web/static/src/js/views/search/search_view.js:226
 #, python-format
 msgid " or "
-msgstr "ឬ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -58,7 +56,7 @@ msgstr "ទិន្នន័យ"
 #: code:addons/web/static/src/xml/base.xml:655
 #, python-format
 msgid "# Code editor"
-msgstr "# កែសម្រួលកូដ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -66,56 +64,56 @@ msgstr "# កែសម្រួលកូដ"
 #: code:addons/web/static/src/js/views/search/search_filters.js:354
 #, python-format
 msgid "%(field)s %(operator)s"
-msgstr "%(field)s %(operator)s"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/search_filters.js:113
 #, python-format
 msgid "%(field)s %(operator)s \"%(value)s\""
-msgstr "%(field)s %(operator)s \"%(value)s\""
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:114
 #, python-format
 msgid "%d days ago"
-msgstr "%d ថ្ងៃ​មុន"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:112
 #, python-format
 msgid "%d hours ago"
-msgstr "%dច្រើន​ម៉ោង​កន្លងទៅ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:110
 #, python-format
 msgid "%d minutes ago"
-msgstr "%dនាទីមុន"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:116
 #, python-format
 msgid "%d months ago"
-msgstr "%dខែកន្លងទៅ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/tools/debug_manager.js:141
 #, python-format
 msgid "%d requests (%d ms) %d queries (%d ms)"
-msgstr "%dស្នើរសុំ(%dms)%dសំណួរ  (%d ms)"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/translation.js:118
 #, python-format
 msgid "%d years ago"
-msgstr "%dឆ្នាំមុន"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_bootstrap
@@ -124,9 +122,6 @@ msgid ""
 "                        &lt;body class=\"ie9\"&gt;\n"
 "                    &lt;![endif]--&gt;"
 msgstr ""
-"&lt;!--[if lt IE 10]&gt;\n"
-"                        &lt;body class=\"ie9\"&gt;\n"
-"                    &lt;![endif]--&gt;"
 
 #. module: web
 #. openerp-web
@@ -140,14 +135,14 @@ msgstr "'%s' គឺជាកាលបរិច្ឆេតមិនត្រឹ�
 #: code:addons/web/static/src/js/core/time.js:193
 #, python-format
 msgid "'%s' is not a correct date, datetime nor time"
-msgstr "'%s' មិនមែនជាកាលបរិច្ឆេទពេលវេលានិងពេលវេលាត្រឹមត្រូវទេ "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/field_utils.js:478
 #, python-format
 msgid "'%s' is not a correct datetime"
-msgstr "'%s''' មិនមែនជាពេលវេលាត្រឹមត្រូវទេ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -179,10 +174,17 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:101
+#, python-format
+msgid "(Enterprise Edition)"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:298
 #, python-format
 msgid "(change)"
-msgstr "(ផ្លាស់ប្តូរ)"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -197,7 +199,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:77
 #, python-format
 msgid "(no string)"
-msgstr "(មិនមែនជាតួអក្សរ)"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -214,28 +216,8 @@ msgid "1 record"
 msgstr ""
 
 #. module: web
-#: model_terms:ir.ui.view,arch_db:web.external_layout_background
-msgid "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
-msgstr "<i class=\"fa fa-at\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.external_layout_background
-msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Fiscal number\"/>"
-msgstr "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Fiscal number\"/>"
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.external_layout_background
-msgid "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
-msgstr "<i class=\"fa fa-globe\" role=\"img\" aria-label=\"Website\" title=\"Website\"/>"
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.external_layout_background
-msgid "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
-msgstr "<i class=\"fa fa-phone\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/>"
-
-#. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/chrome/action_manager.js:574
+#: code:addons/web/static/src/js/chrome/action_manager.js:577
 #, python-format
 msgid ""
 "A popup window has been blocked. You may need to change your browser "
@@ -277,7 +259,7 @@ msgstr "មិនមានសិទ្ធិចូលប្រើ"
 #: code:addons/web/static/src/js/services/crash_manager.js:15
 #, python-format
 msgid "Access Error"
-msgstr "កំហុសក្នុងការចូល "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -291,7 +273,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/sidebar.js:34
 #, python-format
 msgid "Action"
-msgstr "សកម្មភាព"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -305,7 +287,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:2044
 #, python-format
 msgid "Activate"
-msgstr "សកម្មភាព"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -373,7 +355,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/list/list_editable_renderer.js:78
 #, python-format
 msgid "Add a line"
-msgstr "បន្ថែម"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -401,7 +383,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:700
 #, python-format
 msgid "Add new value"
-msgstr "បន្ថែមតម្លៃថ្មី"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -450,7 +432,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core/dialog.js:315
 #, python-format
 msgid "Alert"
-msgstr "ការដាស់តឿន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -495,7 +477,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:200
 #, python-format
 msgid "Alt"
-msgstr "Alt"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -527,7 +509,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:628
 #, python-format
 msgid "Any"
-msgstr "បន្ថែមទៀត"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -626,7 +608,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:56
 #, python-format
 msgid "Avatar"
-msgstr "រូបតំណាង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -638,7 +620,7 @@ msgstr ""
 #. module: web
 #: model:ir.model,name:web.model_base
 msgid "Base"
-msgstr "មូលដ្ឋាន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -674,7 +656,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/colorpicker.xml:35
 #, python-format
 msgid "Blue"
-msgstr "ខៀវ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -716,7 +698,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/calendar/calendar_view.js:22
 #, python-format
 msgid "Calendar"
-msgstr "ប្រតិទិន្ន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -763,7 +745,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:178
 #, python-format
 msgid "Change Password"
-msgstr "ប្ដូរពាក្យសំងាត់"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -777,7 +759,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/colorpicker.js:35
 #, python-format
 msgid "Choose"
-msgstr "ជ្រើសរើស"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -786,7 +768,7 @@ msgstr "ជ្រើសរើស"
 #: code:addons/web/static/src/xml/base.xml:1007
 #, python-format
 msgid "Clear"
-msgstr "ច្បាស់"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -813,7 +795,7 @@ msgstr "បិទ"
 #: code:addons/web/static/src/js/fields/basic_fields.js:2051
 #, python-format
 msgid "Closed"
-msgstr "ការបិទ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -849,7 +831,7 @@ msgstr ""
 #: code:addons/web/static/src/js/core/dialog.js:391
 #, python-format
 msgid "Confirmation"
-msgstr "ការបញ្ជាក់"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -885,7 +867,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:200
 #, python-format
 msgid "Control"
-msgstr "ត្រួតត្រា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -941,7 +923,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:540
 #, python-format
 msgid "Count"
-msgstr "រាប់"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -954,7 +936,7 @@ msgstr "រាប់"
 #: code:addons/web/static/src/xml/base.xml:406
 #, python-format
 msgid "Create"
-msgstr "ការបង្កើត"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -982,7 +964,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:159
 #, python-format
 msgid "Create a new record"
-msgstr "បង្កើតកំណត់ត្រាថ្មី "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1078,16 +1060,22 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
 msgid "Database"
-msgstr "ទិន្នន័យ"
+msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/groupby_menu.js:52
+#: code:addons/web/static/src/xml/menu.xml:107
+#, python-format
+msgid "Database expiration:"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:558
 #: code:addons/web/static/src/xml/web_calendar.xml:80
 #, python-format
 msgid "Day"
-msgstr "ថ្ងៃ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1114,7 +1102,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:24
 #, python-format
 msgid "Delete"
-msgstr "លុប"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1169,7 +1157,7 @@ msgstr "បោះបង់"
 #: code:addons/web/static/src/xml/menu.xml:150
 #, python-format
 msgid "Discard a record modification"
-msgstr "បោះបង់ចោលការកែប្រែកំណត់ត្រា "
+msgstr ""
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_report_layout__display_name
@@ -1193,7 +1181,7 @@ msgstr ""
 #. module: web
 #: model:ir.model.fields,field_description:web.field_report_layout__view_id
 msgid "Document Template"
-msgstr "គំរូបឯកសារ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1208,7 +1196,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:601
 #, python-format
 msgid "Domain"
-msgstr "ដែន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1222,7 +1210,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:41
 #, python-format
 msgid "Domain:"
-msgstr "កម្មសិទ្ធិ:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1244,7 +1232,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1556
 #, python-format
 msgid "Dropdown menu"
-msgstr "ម៉ឺនុយទម្លាក់ចុះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1263,7 +1251,7 @@ msgstr "ត្រួត"
 #: code:addons/web/static/src/xml/report.xml:14
 #, python-format
 msgid "Edit"
-msgstr "កែសម្រួល"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1312,7 +1300,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:141
 #, python-format
 msgid "Edit a record"
-msgstr "កែកំណត់ត្រា"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -1322,7 +1310,7 @@ msgstr "អុីម៉ែល"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Email:"
-msgstr "អ៊ីមែល៖"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1365,7 +1353,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:60
 #, python-format
 msgid "Examples"
-msgstr "ឧទាហរណ៍"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1386,7 +1374,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/list/list_controller.js:149
 #, python-format
 msgid "Export"
-msgstr "នាំចេញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1416,14 +1404,14 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/data_export.js:482
 #, python-format
 msgid "External ID"
-msgstr "អត្តលេខខាងក្រៅ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:826
 #, python-format
 msgid "External link"
-msgstr "តំណខាងក្រៅ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1459,7 +1447,7 @@ msgstr "ចំណូលចិត្ត"
 #: code:addons/web/static/src/xml/base.xml:17
 #, python-format
 msgid "Field:"
-msgstr "វិស័យ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1481,7 +1469,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:1416
 #, python-format
 msgid "File Upload"
-msgstr "ផ្ទុកឯកសារឡើង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1495,7 +1483,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/search_inputs.js:578
 #, python-format
 msgid "Filter"
-msgstr "ឯកសារ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1523,7 +1511,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/filters_menu.js:67
 #, python-format
 msgid "Filters"
-msgstr "ការយកចេញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1537,7 +1525,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:21
 #, python-format
 msgid "Fold"
-msgstr "ការរលំ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1561,7 +1549,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/form/form_view.js:18
 #, python-format
 msgid "Form"
-msgstr "សំណុំបែបបទ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1605,7 +1593,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/graph/graph_view.js:23
 #, python-format
 msgid "Graph"
-msgstr "ក្រាហ្វ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1615,7 +1603,7 @@ msgstr "ក្រាហ្វ"
 #: code:addons/web/static/src/xml/kanban.xml:90
 #, python-format
 msgid "Green"
-msgstr "បៃតង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1633,16 +1621,9 @@ msgid "Group by: %s"
 msgstr ""
 
 #. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/graph/graph_renderer.js:214
-#, python-format
-msgid "Grouped"
-msgstr ""
-
-#. module: web
 #: model:ir.model,name:web.model_ir_http
 msgid "HTTP Routing"
-msgstr "HTTP ជុំវិញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1725,7 +1706,7 @@ msgstr "Image"
 #: code:addons/web/static/src/js/fields/basic_fields.js:2043
 #, python-format
 msgid "Inactive"
-msgstr "អសកម្ម"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1785,20 +1766,20 @@ msgstr ""
 #: code:addons/web/static/src/js/views/kanban/kanban_view.js:17
 #, python-format
 msgid "Kanban"
-msgstr "Kanban"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/user_menu.js:125
 #, python-format
 msgid "Keyboard Shortcuts"
-msgstr "ផ្លូវកាត់របស់ក្តារចុច "
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:840
 #, python-format
 msgid "Languages"
-msgstr "ភាសា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1812,7 +1793,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:10
 #, python-format
 msgid "Last 365 Days"
-msgstr "៣៦៥ ថ្ងៃចុងក្រោយ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1831,14 +1812,14 @@ msgstr "កាលបរិច្ឆេតកែប្រែចុងក្រោ
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:18
 #, python-format
 msgid "Last Month"
-msgstr "ខែចុងក្រោយ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:19
 #, python-format
 msgid "Last Quarter"
-msgstr "ត្រីមាសចុងក្រោយ"
+msgstr ""
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_report_layout__write_uid
@@ -1855,14 +1836,14 @@ msgstr "ផ្លាស់ប្តូរចុងក្រោយ"
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:17
 #, python-format
 msgid "Last Week"
-msgstr "សប្ដាហ៍​មុន "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:20
 #, python-format
 msgid "Last Year"
-msgstr "ឆ្នាំមុន "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1913,7 +1894,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/list/list_view.js:21
 #, python-format
 msgid "List"
-msgstr "តារាង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1952,7 +1933,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1459
 #, python-format
 msgid "Loading..."
-msgstr "កំពុងផ្ទុក ... "
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -1978,7 +1959,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:web.external_layout_standard
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Logo"
-msgstr "រូបសញ្ញា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1992,7 +1973,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:127
 #, python-format
 msgid "Mac"
-msgstr "Mac"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
@@ -2054,7 +2035,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:532
 #, python-format
 msgid "Measures"
-msgstr "វិធានការ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2106,11 +2087,10 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:94
 #, python-format
 msgid "Modifiers:"
-msgstr "ពាក្យសម្រាប់បញ្ជាក់ន័យ:"
+msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/groupby_menu.js:54
 #: code:addons/web/static/src/xml/base.xml:560
 #: code:addons/web/static/src/xml/web_calendar.xml:82
 #, python-format
@@ -2123,7 +2103,7 @@ msgstr "ខែ"
 #: code:addons/web/static/src/xml/base.xml:903
 #, python-format
 msgid "More"
-msgstr "បន្ថែមទៀត"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2158,7 +2138,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1470
 #, python-format
 msgid "Name:"
-msgstr "ឈ្មោះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2172,7 +2152,7 @@ msgstr "ថ្មី"
 #: code:addons/web/static/src/xml/base.xml:169
 #, python-format
 msgid "New Password"
-msgstr "លេខសំងាត់ថ្មី"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2188,14 +2168,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:77
 #, python-format
 msgid "Next"
-msgstr "បន្ទាប់"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/search_inputs.js:338
 #, python-format
 msgid "No"
-msgstr "ទេ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2254,7 +2234,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:624
 #, python-format
 msgid "None"
-msgstr "គ្មាន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2281,9 +2261,10 @@ msgstr ""
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:59
+#: code:addons/web/static/src/xml/menu.xml:100
 #, python-format
 msgid "Odoo"
-msgstr "Odoo"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2306,7 +2287,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
 msgid "Odoo Enterprise"
-msgstr "សហគ្រាសអូដូ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2375,12 +2356,6 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:2283
 #, python-format
 msgid "Only Integer Value should be valid."
-msgstr "មានតែតម្លៃគត់ប៉ុណ្ណោះដែលអាចប្រើបាន។"
-
-#. module: web
-#: code:addons/web/static/src/js/fields/basic_fields.js:1982
-#, python-format
-msgid "Only Integer or Float Value should be valid."
 msgstr ""
 
 #. module: web
@@ -2409,7 +2384,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:2052
 #, python-format
 msgid "Open"
-msgstr "បើក"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2430,28 +2405,28 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:195
 #, python-format
 msgid "Open the next record"
-msgstr "បើកកំណត់ត្រាបន្ទាប់"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:186
 #, python-format
 msgid "Open the previous record"
-msgstr "បើកកំណត់ត្រាមុន "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:177
 #, python-format
 msgid "Open to kanban view"
-msgstr "បើកមើលទិដ្ឋភាព kanban"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:168
 #, python-format
 msgid "Open to list view"
-msgstr "បើកដើម្បីរាយទិដ្ឋភាព"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2470,7 +2445,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:82
 #, python-format
 msgid "Orange"
-msgstr "ក្រូច"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
@@ -2490,12 +2465,12 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
 msgid "Password"
-msgstr "លេខសំងាត់"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Phone:"
-msgstr "ទូរស័ព្ទ:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2534,7 +2509,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/pivot/pivot_view.js:23
 #, python-format
 msgid "Pivot"
-msgstr "វិលជុំវិញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2589,7 +2564,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1549
 #, python-format
 msgid "Preferences"
-msgstr "ចំណូលចិត្ត"
+msgstr ""
 
 #. module: web
 #: model:ir.actions.report,name:web.action_report_externalpreview
@@ -2614,25 +2589,24 @@ msgstr ""
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:741
-#: code:addons/web/static/src/xml/base.xml:1505
 #: code:addons/web/static/src/xml/web_calendar.xml:75
 #, python-format
 msgid "Previous"
-msgstr "មុន"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:24
 #, python-format
 msgid "Previous Period"
-msgstr "កំឡុងពេលមុន"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:25
 #, python-format
 msgid "Previous Year"
-msgstr "ឆ្នាំមុន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2640,7 +2614,7 @@ msgstr "ឆ្នាំមុន"
 #: code:addons/web/static/src/xml/report.xml:11
 #, python-format
 msgid "Print"
-msgstr "បោះពុម្ព"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2649,11 +2623,10 @@ msgstr "បោះពុម្ព"
 #: code:addons/web/static/src/xml/kanban.xml:91
 #, python-format
 msgid "Purple"
-msgstr "ពណ៌ស្វាយ"
+msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/groupby_menu.js:55
 #: code:addons/web/static/src/xml/base.xml:561
 #, python-format
 msgid "Quarter"
@@ -2669,14 +2642,14 @@ msgstr ""
 #. module: web
 #: model:ir.model,name:web.model_ir_qweb_field_image
 msgid "Qweb Field Image"
-msgstr "បណ្តាញរូបភាព Qweb"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1160
 #, python-format
 msgid "Range"
-msgstr "អត្រា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2686,7 +2659,7 @@ msgstr "អត្រា"
 #: code:addons/web/static/src/xml/kanban.xml:81
 #, python-format
 msgid "Red"
-msgstr "ក្រហម"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2723,7 +2696,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1412
 #, python-format
 msgid "Remove"
-msgstr "ដកចេញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2758,7 +2731,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:112
 #, python-format
 msgid "Report"
-msgstr "របាយការណ៍"
+msgstr ""
 
 #. module: web
 #: model:ir.model,name:web.model_report_layout
@@ -2777,7 +2750,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:2048
 #, python-format
 msgid "Restore"
-msgstr "ស្ដារ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2833,7 +2806,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/report.xml:17
 #, python-format
 msgid "Save"
-msgstr "រក្សាទុក"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2861,7 +2834,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:132
 #, python-format
 msgid "Save a record"
-msgstr "រក្សាទុកកំណត់ត្រា "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2903,7 +2876,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1592
 #, python-format
 msgid "Search"
-msgstr "ការស្រាវជ្រាវ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2933,7 +2906,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1231
 #, python-format
 msgid "Search..."
-msgstr "ស្វែងរក.... "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2958,7 +2931,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1006
 #, python-format
 msgid "Select"
-msgstr "ជ្រើសរើស"
+msgstr ""
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -3014,7 +2987,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:19
 #, python-format
 msgid "Settings"
-msgstr "ការកំណត់"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3028,7 +3001,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:114
 #, python-format
 msgid "Shortcuts"
-msgstr "ផ្លូវកាត់ "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3059,13 +3032,6 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/graph/graph_renderer.js:215
-#, python-format
-msgid "Stacked"
-msgstr ""
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/js/core/misc.js:14
 #, python-format
 msgid "Still loading..."
@@ -3083,14 +3049,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:96
 #, python-format
 msgid "Summary:"
-msgstr "សង្ខេប៖ "
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1547
 #, python-format
 msgid "Support"
-msgstr "ការគាំទ្រ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3138,7 +3104,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
 #: model_terms:ir.ui.view,arch_db:web.external_layout_clean
 msgid "Tel:"
-msgstr "លេខទូរស័ព្ទ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3220,15 +3186,7 @@ msgid ""
 msgstr ""
 
 #. module: web
-#: code:addons/web/controllers/main.py:1452
-#, python-format
-msgid ""
-"There are too many records (%s records, limit: %s) to export as this format."
-" Consider splitting the export."
-msgstr ""
-
-#. module: web
-#: code:addons/web/controllers/main.py:1522
+#: code:addons/web/controllers/main.py:1513
 #, python-format
 msgid ""
 "There are too many rows (%s rows, limit: 65535) to export as Excel 97-2003 "
@@ -3247,21 +3205,21 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:13
 #, python-format
 msgid "This Month"
-msgstr "ឆ្នំានេះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:14
 #, python-format
 msgid "This Quarter"
-msgstr "ត្រីមាសនេះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:12
 #, python-format
 msgid "This Week"
-msgstr "សប្តាហ៍នេះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3308,7 +3266,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/time_range_menu.js:128
 #, python-format
 msgid "Time Range"
-msgstr "ជួរពេលវេលា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3334,7 +3292,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:89
 #, python-format
 msgid "Today"
-msgstr "ថ្ងៃនេះ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3395,7 +3353,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:25
 #, python-format
 msgid "Type:"
-msgstr "ប្រភេទៈ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3431,14 +3389,14 @@ msgstr ""
 #: code:addons/web/static/src/js/views/pivot/pivot_model.js:1078
 #, python-format
 msgid "Undefined"
-msgstr "មិនបានកំណត់"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/kanban.xml:17
 #, python-format
 msgid "Unfold"
-msgstr "ដោះចេញ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3473,7 +3431,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/pivot/pivot_view.js:106
 #, python-format
 msgid "Untitled"
-msgstr "គ្មានចំណងជើង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3494,7 +3452,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1577
 #, python-format
 msgid "Upgrade to enterprise"
-msgstr "ធ្វើឱ្យប្រសើរឡើងទៅសហគ្រាស"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3516,7 +3474,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/relational_fields.js:1807
 #, python-format
 msgid "Uploading Error"
-msgstr "ឯកសារផ្ទុកមានកំហុស"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3526,7 +3484,7 @@ msgstr "ឯកសារផ្ទុកមានកំហុស"
 #: code:addons/web/static/src/xml/base.xml:1060
 #, python-format
 msgid "Uploading..."
-msgstr "ឯកសារផ្ទុក"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3558,14 +3516,6 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/pivot/pivot_model.js:240
-#: code:addons/web/static/src/js/views/pivot/pivot_renderer.js:174
-#, python-format
-msgid "Variation"
-msgstr ""
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/js/tools/debug_manager.js:287
 #: code:addons/web/static/src/xml/base.xml:258
 #, python-format
@@ -3590,7 +3540,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:606
 #, python-format
 msgid "Warning"
-msgstr "ព្រមាន"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3622,12 +3572,11 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/groupby_menu.js:53
 #: code:addons/web/static/src/xml/base.xml:559
 #: code:addons/web/static/src/xml/web_calendar.xml:81
 #, python-format
 msgid "Week"
-msgstr "សប្តាហ៏"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3648,14 +3597,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:29
 #, python-format
 msgid "Widget:"
-msgstr "ធាតុក្រាហ្វិក:"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/menu.xml:126
 #, python-format
 msgid "Windows/Linux"
-msgstr "វីនដូ / លីនុច"
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:497
@@ -3668,7 +3617,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/basic_fields.js:2283
 #, python-format
 msgid "Wrong value entered!"
-msgstr "បានបញ្ចូលតម្លៃខុស!"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3679,11 +3628,10 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/groupby_menu.js:56
 #: code:addons/web/static/src/xml/base.xml:562
 #, python-format
 msgid "Year"
-msgstr "ឆ្នំា"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3692,7 +3640,7 @@ msgstr "ឆ្នំា"
 #: code:addons/web/static/src/xml/kanban.xml:83
 #, python-format
 msgid "Yellow"
-msgstr "ពណ៌លឿង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3700,7 +3648,7 @@ msgstr "ពណ៌លឿង"
 #: code:addons/web/static/src/xml/base.xml:49
 #, python-format
 msgid "Yes"
-msgstr "ត្រឹមត្រូវ"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3878,7 +3826,7 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/domain_selector.js:25
 #, python-format
 msgid "in"
-msgstr "នៅក្នុង"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3899,23 +3847,9 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/search/search_filters.js:190
-#, python-format
-msgid "is after or equal to"
-msgstr ""
-
-#. module: web
-#. openerp-web
 #: code:addons/web/static/src/js/views/search/search_filters.js:189
 #, python-format
 msgid "is before"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/search/search_filters.js:191
-#, python-format
-msgid "is before or equal to"
 msgstr ""
 
 #. module: web
@@ -4104,7 +4038,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:42
 #, python-format
 msgid "remaining)"
-msgstr "នៅសល់)"
+msgstr ""
 
 #. module: web
 #. openerp-web
