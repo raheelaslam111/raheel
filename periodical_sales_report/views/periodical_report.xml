@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report 
+            id="action_report_periodical_sales"
+            model="periodical.report.wizard"
+            string="Periodical Sale Report"
+            report_type="qweb-pdf"
+            name="periodical_sales_report.report_periodical_sales"
+            file="periodical_sales_report.report_periodical_sales"
+            />
+
+        <report
+            id="action_report_periodical_sales_partner"
+            model="periodical.report.wizard.partner"
+            string="SalesPerson Periodical Report"
+            report_type="qweb-pdf"
+            name="periodical_sales_report.report_periodical_sales_person"
+            file="periodical_sales_report.report_periodical_sales_person"
+            />
+    </data>
+</odoo>

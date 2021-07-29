@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <menuitem id="menu_petty_cash_root"
+        name="Petty Cash"
+        web_icon="petty_cash,static/description/icon.jpeg"/>
+
+
+        <menuitem id="petty_cash_request_main"
+                  name="Petty Cash Request"
+                  parent="menu_petty_cash_root"
+                  sequence="10"/>
+
+                <menuitem id="petty_cash_request_sub"
+                          name="Petty Cash Request"
+                          parent="petty_cash_request_main"
+                          action="action_petty_cash_request"
+                          sequence="10"/>
+
+
+        <menuitem id="petty_cash_reporting"
+                  name="Reporting"
+                  parent="menu_petty_cash_root"
+                  sequence="20"/>
+
+
+        <menuitem id="petty_cash_config"
+                  name="Configuration"
+                  parent="menu_petty_cash_root"
+                  sequence="50"/>
+
+            <menuitem id="petty_cash_holder_main"
+                      name="Petty Cash Holder"
+                      parent="petty_cash_config"
+                      sequence="10"/>
+
+                    <menuitem id="petty_cash_holder_sub"
+                              name="Petty Cash Holder"
+                              parent="petty_cash_holder_main"
+                              action="action_petty_cash_holder"
+                              sequence="10"/>
+
+    </data>
+</odoo>

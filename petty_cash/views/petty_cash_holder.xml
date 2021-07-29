@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_petty_cash_holder_form" model="ir.ui.view">
+            <field name="name">view.petty.cash.holder.form</field>
+            <field name="model">petty.cash.holder</field>
+            <field name="arch" type="xml">
+                <form string="Petty Cash Holder">
+                    <sheet string="Petty Cash Holder">
+                        <group>
+                            <group>
+                                <field name="partner_id"/>
+                                <field name="journal_id"/>
+                            </group>
+                            <group>
+                                <field name="approved_cash_limit"/>
+                                <field name="cash_onhand"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_petty_cash_holder_tree" model="ir.ui.view">
+            <field name="name">view.petty.cash.holder.tree</field>
+            <field name="model">petty.cash.holder</field>
+            <field name="arch" type="xml">
+                <tree string="Petty Cash Holder">
+                    <field name="partner_id"/>
+                    <field name="journal_id"/>
+                    <field name="approved_cash_limit"/>
+                    <field name="cash_onhand"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_petty_cash_holder" model="ir.actions.act_window">
+            <field name="name">Petty Cash Holder</field>
+            <field name="res_model">petty.cash.holder</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

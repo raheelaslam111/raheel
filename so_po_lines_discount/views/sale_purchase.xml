@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <record id="view_order_form_with_discount_custom_line" model="ir.ui.view">
+            <field name="name">sale.order.discount.second.custom</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//header" position="inside">
+                    <button name="add_discount_line_in_so" string="Add Discount" class="oe_highlight" type="object"/>
+                </xpath>
+                <xpath expr="//field[@name='payment_term_id']" position="after">
+                    <field name="discount_second2"/>
+                </xpath>
+                <xpath expr="//field[@name='amount_tax']" position="after">
+                    <field name="positive_total_amount"/>
+                    <field name="lines_total_discount"/>
+                    <field name="total_custom_discount"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

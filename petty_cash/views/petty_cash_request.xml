@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_petty_cash_request_form" model="ir.ui.view">
+            <field name="name">view.petty.cash.request.form</field>
+            <field name="model">petty.cash.request</field>
+            <field name="arch" type="xml">
+                <form string="Petty Cash Request">
+                    <header>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,approved"/>
+                        <button type="object" name="action_approve" class="oe_highlight" string="Approve"/>
+                        <button type="object" name="action_cancel" string="Cancel"/>
+                        <button type="object" name="action_reset" string="Reset"/>
+                        <button type="object" name="action_create_payment" class="oe_highlight" string="Create Payment"/>
+                        <button type="object" name="action_create_bill" class="oe_highlight" string="Create Bill"/>
+                    </header>
+                    <sheet string="Petty Cash Request">
+                        <group>
+                            <group>
+                                <field name="reference"/>
+                                <field name="partner_id"/>
+                                <field name="petty_cash_holder_id"/>
+                            </group>
+                            <group>
+                                <field name="requested_on"/>
+                                <field name="approved_on"/>
+                            </group>
+                            <group>
+                                <field name="project_id"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="cash_request" string="Cash Request Lines">
+                                <field name="cash_request_line_ids" nolabel="1">
+                                    <tree editable="bottom">
+                                        <field name="amount_requested"/>
+                                        <field name="amount_approved"/>
+                                        <field name="amount_paid"/>
+                                        <field name="balance_amount"/>
+                                        <field name="petty_cash_request_id" invisible="1"/>
+                                    </tree>
+                                    <form>
+                                        <group>
+                                            <group>
+                                                <field name="amount_requested"/>
+                                                <field name="amount_approved"/>
+                                                <field name="amount_paid"/>
+                                                <field name="balance_amount"/>
+                                                <field name="petty_cash_request_id"/>
+                                            </group>
+                                        </group>
+                                    </form>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_petty_cash_request_tree" model="ir.ui.view">
+            <field name="name">view.petty.cash.request.tree</field>
+            <field name="model">petty.cash.request</field>
+            <field name="arch" type="xml">
+                <tree string="Petty Cash Request">
+                    <field name="reference"/>
+                    <field name="partner_id"/>
+                    <field name="petty_cash_holder_id"/>
+                    <field name="requested_on"/>
+                    <field name="approved_on"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_petty_cash_request" model="ir.actions.act_window">
+            <field name="name">Petty Cash Request</field>
+            <field name="res_model">petty.cash.request</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

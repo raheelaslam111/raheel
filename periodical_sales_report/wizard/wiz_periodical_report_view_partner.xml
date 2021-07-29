@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="wiz_periodical_report_partner_view" model="ir.ui.view">
+		<field name="name">wiz.periodical.report.view</field>
+		<field name="model">periodical.report.wizard.partner</field>
+		<field name="arch" type="xml">
+			<form>
+				<group string="SalesPerson">
+					<field name="sale_person_id"/>
+				</group>
+				<group col="4">
+					<field name="period"  />
+					<field name="state" />
+				</group>
+				Or
+				<group col="4">
+					<field name="date_from" />
+					<field name="date_to" />
+				</group>
+				<footer>
+					<button name="check_report" string="Print" type="object" default_focus="1" class="oe_highlight" />
+					or
+					<button string="Cancel" class="oe_link" special="cancel" />
+				</footer>
+			</form>
+		</field>
+	</record>
+
+	<record id="action_periodical_partner_report_wizard" model="ir.actions.act_window">
+		<field name="name">SalesPerson Periodical Report</field>
+		<field name="res_model">periodical.report.wizard.partner</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="view_mode">form</field>
+		<field name="view_id" ref="wiz_periodical_report_partner_view"/>
+		<field name="target">new</field>
+	</record>
+
+	 <menuitem id="menu_sale_periodical_report_partner"
+                  name="SalesPerson Periodical Reports"
+                  action="action_periodical_partner_report_wizard"
+                  parent="sale.sale_order_menu"
+                  sequence="1"/>
+
+</odoo>

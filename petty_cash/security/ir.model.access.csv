@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_petty_cash_holder,petty.cash.holder,model_petty_cash_holder,,1,1,1,1
+access_cash_request_line,cash.request.line,model_cash_request_line,,1,1,1,1
+access_petty_cash_request,petty.cash.request,model_petty_cash_request,,1,1,1,1
+
+
+
+
